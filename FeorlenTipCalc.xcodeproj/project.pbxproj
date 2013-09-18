@@ -1,0 +1,452 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CED4710417E95D8B006E7DD6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CED4710317E95D8B006E7DD6 /* UIKit.framework */; };
+		CED4710617E95D8B006E7DD6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CED4710517E95D8B006E7DD6 /* Foundation.framework */; };
+		CED4710817E95D8B006E7DD6 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CED4710717E95D8B006E7DD6 /* CoreGraphics.framework */; };
+		CED4710E17E95D8B006E7DD6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CED4710C17E95D8B006E7DD6 /* InfoPlist.strings */; };
+		CED4711017E95D8B006E7DD6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CED4710F17E95D8B006E7DD6 /* main.m */; };
+		CED4711417E95D8B006E7DD6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CED4711317E95D8B006E7DD6 /* AppDelegate.m */; };
+		CED4711617E95D8B006E7DD6 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = CED4711517E95D8B006E7DD6 /* Default.png */; };
+		CED4711817E95D8B006E7DD6 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CED4711717E95D8B006E7DD6 /* Default@2x.png */; };
+		CED4711A17E95D8B006E7DD6 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CED4711917E95D8B006E7DD6 /* Default-568h@2x.png */; };
+		CED4712217E95D8B006E7DD6 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CED4712117E95D8B006E7DD6 /* SenTestingKit.framework */; };
+		CED4712317E95D8C006E7DD6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CED4710317E95D8B006E7DD6 /* UIKit.framework */; };
+		CED4712417E95D8C006E7DD6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CED4710517E95D8B006E7DD6 /* Foundation.framework */; };
+		CED4712C17E95D8C006E7DD6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CED4712A17E95D8C006E7DD6 /* InfoPlist.strings */; };
+		CED4712F17E95D8C006E7DD6 /* FeorlenTipCalcTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CED4712E17E95D8C006E7DD6 /* FeorlenTipCalcTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CED4712517E95D8C006E7DD6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CED470F817E95D8B006E7DD6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CED470FF17E95D8B006E7DD6;
+			remoteInfo = FeorlenTipCalc;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CED4710017E95D8B006E7DD6 /* FeorlenTipCalc.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FeorlenTipCalc.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CED4710317E95D8B006E7DD6 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		CED4710517E95D8B006E7DD6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		CED4710717E95D8B006E7DD6 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		CED4710B17E95D8B006E7DD6 /* FeorlenTipCalc-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FeorlenTipCalc-Info.plist"; sourceTree = "<group>"; };
+		CED4710D17E95D8B006E7DD6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CED4710F17E95D8B006E7DD6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CED4711117E95D8B006E7DD6 /* FeorlenTipCalc-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FeorlenTipCalc-Prefix.pch"; sourceTree = "<group>"; };
+		CED4711217E95D8B006E7DD6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CED4711317E95D8B006E7DD6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CED4711517E95D8B006E7DD6 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		CED4711717E95D8B006E7DD6 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		CED4711917E95D8B006E7DD6 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		CED4712017E95D8B006E7DD6 /* FeorlenTipCalcTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FeorlenTipCalcTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CED4712117E95D8B006E7DD6 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		CED4712917E95D8C006E7DD6 /* FeorlenTipCalcTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FeorlenTipCalcTests-Info.plist"; sourceTree = "<group>"; };
+		CED4712B17E95D8C006E7DD6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CED4712D17E95D8C006E7DD6 /* FeorlenTipCalcTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FeorlenTipCalcTests.h; sourceTree = "<group>"; };
+		CED4712E17E95D8C006E7DD6 /* FeorlenTipCalcTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FeorlenTipCalcTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CED470FD17E95D8B006E7DD6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CED4710417E95D8B006E7DD6 /* UIKit.framework in Frameworks */,
+				CED4710617E95D8B006E7DD6 /* Foundation.framework in Frameworks */,
+				CED4710817E95D8B006E7DD6 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CED4711C17E95D8B006E7DD6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CED4712217E95D8B006E7DD6 /* SenTestingKit.framework in Frameworks */,
+				CED4712317E95D8C006E7DD6 /* UIKit.framework in Frameworks */,
+				CED4712417E95D8C006E7DD6 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CED470F717E95D8B006E7DD6 = {
+			isa = PBXGroup;
+			children = (
+				CED4710917E95D8B006E7DD6 /* FeorlenTipCalc */,
+				CED4712717E95D8C006E7DD6 /* FeorlenTipCalcTests */,
+				CED4710217E95D8B006E7DD6 /* Frameworks */,
+				CED4710117E95D8B006E7DD6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CED4710117E95D8B006E7DD6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CED4710017E95D8B006E7DD6 /* FeorlenTipCalc.app */,
+				CED4712017E95D8B006E7DD6 /* FeorlenTipCalcTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CED4710217E95D8B006E7DD6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CED4710317E95D8B006E7DD6 /* UIKit.framework */,
+				CED4710517E95D8B006E7DD6 /* Foundation.framework */,
+				CED4710717E95D8B006E7DD6 /* CoreGraphics.framework */,
+				CED4712117E95D8B006E7DD6 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CED4710917E95D8B006E7DD6 /* FeorlenTipCalc */ = {
+			isa = PBXGroup;
+			children = (
+				CED4711217E95D8B006E7DD6 /* AppDelegate.h */,
+				CED4711317E95D8B006E7DD6 /* AppDelegate.m */,
+				CED4710A17E95D8B006E7DD6 /* Supporting Files */,
+			);
+			path = FeorlenTipCalc;
+			sourceTree = "<group>";
+		};
+		CED4710A17E95D8B006E7DD6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CED4710B17E95D8B006E7DD6 /* FeorlenTipCalc-Info.plist */,
+				CED4710C17E95D8B006E7DD6 /* InfoPlist.strings */,
+				CED4710F17E95D8B006E7DD6 /* main.m */,
+				CED4711117E95D8B006E7DD6 /* FeorlenTipCalc-Prefix.pch */,
+				CED4711517E95D8B006E7DD6 /* Default.png */,
+				CED4711717E95D8B006E7DD6 /* Default@2x.png */,
+				CED4711917E95D8B006E7DD6 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CED4712717E95D8C006E7DD6 /* FeorlenTipCalcTests */ = {
+			isa = PBXGroup;
+			children = (
+				CED4712D17E95D8C006E7DD6 /* FeorlenTipCalcTests.h */,
+				CED4712E17E95D8C006E7DD6 /* FeorlenTipCalcTests.m */,
+				CED4712817E95D8C006E7DD6 /* Supporting Files */,
+			);
+			path = FeorlenTipCalcTests;
+			sourceTree = "<group>";
+		};
+		CED4712817E95D8C006E7DD6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CED4712917E95D8C006E7DD6 /* FeorlenTipCalcTests-Info.plist */,
+				CED4712A17E95D8C006E7DD6 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CED470FF17E95D8B006E7DD6 /* FeorlenTipCalc */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CED4713217E95D8C006E7DD6 /* Build configuration list for PBXNativeTarget "FeorlenTipCalc" */;
+			buildPhases = (
+				CED470FC17E95D8B006E7DD6 /* Sources */,
+				CED470FD17E95D8B006E7DD6 /* Frameworks */,
+				CED470FE17E95D8B006E7DD6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FeorlenTipCalc;
+			productName = FeorlenTipCalc;
+			productReference = CED4710017E95D8B006E7DD6 /* FeorlenTipCalc.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CED4711F17E95D8B006E7DD6 /* FeorlenTipCalcTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CED4713517E95D8C006E7DD6 /* Build configuration list for PBXNativeTarget "FeorlenTipCalcTests" */;
+			buildPhases = (
+				CED4711B17E95D8B006E7DD6 /* Sources */,
+				CED4711C17E95D8B006E7DD6 /* Frameworks */,
+				CED4711D17E95D8B006E7DD6 /* Resources */,
+				CED4711E17E95D8B006E7DD6 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CED4712617E95D8C006E7DD6 /* PBXTargetDependency */,
+			);
+			name = FeorlenTipCalcTests;
+			productName = FeorlenTipCalcTests;
+			productReference = CED4712017E95D8B006E7DD6 /* FeorlenTipCalcTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CED470F817E95D8B006E7DD6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = Feorlen.org;
+			};
+			buildConfigurationList = CED470FB17E95D8B006E7DD6 /* Build configuration list for PBXProject "FeorlenTipCalc" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CED470F717E95D8B006E7DD6;
+			productRefGroup = CED4710117E95D8B006E7DD6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CED470FF17E95D8B006E7DD6 /* FeorlenTipCalc */,
+				CED4711F17E95D8B006E7DD6 /* FeorlenTipCalcTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CED470FE17E95D8B006E7DD6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CED4710E17E95D8B006E7DD6 /* InfoPlist.strings in Resources */,
+				CED4711617E95D8B006E7DD6 /* Default.png in Resources */,
+				CED4711817E95D8B006E7DD6 /* Default@2x.png in Resources */,
+				CED4711A17E95D8B006E7DD6 /* Default-568h@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CED4711D17E95D8B006E7DD6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CED4712C17E95D8C006E7DD6 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		CED4711E17E95D8B006E7DD6 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CED470FC17E95D8B006E7DD6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CED4711017E95D8B006E7DD6 /* main.m in Sources */,
+				CED4711417E95D8B006E7DD6 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CED4711B17E95D8B006E7DD6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CED4712F17E95D8C006E7DD6 /* FeorlenTipCalcTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CED4712617E95D8C006E7DD6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CED470FF17E95D8B006E7DD6 /* FeorlenTipCalc */;
+			targetProxy = CED4712517E95D8C006E7DD6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CED4710C17E95D8B006E7DD6 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CED4710D17E95D8B006E7DD6 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		CED4712A17E95D8C006E7DD6 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CED4712B17E95D8C006E7DD6 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CED4713017E95D8C006E7DD6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CED4713117E95D8C006E7DD6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CED4713317E95D8C006E7DD6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FeorlenTipCalc/FeorlenTipCalc-Prefix.pch";
+				INFOPLIST_FILE = "FeorlenTipCalc/FeorlenTipCalc-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		CED4713417E95D8C006E7DD6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FeorlenTipCalc/FeorlenTipCalc-Prefix.pch";
+				INFOPLIST_FILE = "FeorlenTipCalc/FeorlenTipCalc-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		CED4713617E95D8C006E7DD6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/FeorlenTipCalc.app/FeorlenTipCalc";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FeorlenTipCalc/FeorlenTipCalc-Prefix.pch";
+				INFOPLIST_FILE = "FeorlenTipCalcTests/FeorlenTipCalcTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		CED4713717E95D8C006E7DD6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/FeorlenTipCalc.app/FeorlenTipCalc";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FeorlenTipCalc/FeorlenTipCalc-Prefix.pch";
+				INFOPLIST_FILE = "FeorlenTipCalcTests/FeorlenTipCalcTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CED470FB17E95D8B006E7DD6 /* Build configuration list for PBXProject "FeorlenTipCalc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CED4713017E95D8C006E7DD6 /* Debug */,
+				CED4713117E95D8C006E7DD6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CED4713217E95D8C006E7DD6 /* Build configuration list for PBXNativeTarget "FeorlenTipCalc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CED4713317E95D8C006E7DD6 /* Debug */,
+				CED4713417E95D8C006E7DD6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CED4713517E95D8C006E7DD6 /* Build configuration list for PBXNativeTarget "FeorlenTipCalcTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CED4713617E95D8C006E7DD6 /* Debug */,
+				CED4713717E95D8C006E7DD6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CED470F817E95D8B006E7DD6 /* Project object */;
+}
