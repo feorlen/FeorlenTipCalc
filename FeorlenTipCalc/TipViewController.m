@@ -9,6 +9,12 @@
 #import "TipViewController.h"
 
 @interface TipViewController ()
+@property (weak, nonatomic) IBOutlet UITextField *BillTextField;
+@property (weak, nonatomic) IBOutlet UILabel *TipLabel;
+@property (weak, nonatomic) IBOutlet UILabel *TotalLabel;
+@property (weak, nonatomic) IBOutlet UISegmentedControl *TipControl;
+
+- (IBAction)OnTap:(id)sender;
 
 @end
 
@@ -36,4 +42,7 @@
     // Dispose of any resources that can be recreated.
 }
 
+- (IBAction)OnTap:(id)sender {
+    [self.view endEditing:YES];
+}
 @end
